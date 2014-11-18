@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <title>Hello</title>
+</head>
+<body>
+<div class="container">
+    <h2 th:text="'Hello ' + ${principal.principal.username} + '.'">Hello</h2>
+    <p>Below is your authentication history.</p>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>DATE</th>
+            <th>USER</th>
+            <th>RESULT</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="attempt : ${authAttempts}">
+            <td th:text="${attempt.createdAt}">13 jan 2011</td>
+            <td th:text="${attempt.username}">Frederic Tomato</td>
+            <td th:text="${attempt.authAttemptResult}">SUCCESS</td>
+        </tr>
+        </tbody>
+    </table>
+    <p th:if="${isAdminRole}"><a th:href="@{/manage}" href="/manage">Manage users.</a></p>
+    <form method="POST" action="/logout" th:action="@{/logout}">
+        <button type="submit" class="btn btn-default">Logout</button>
+    </form>
+</div>
+</body>
+</html>

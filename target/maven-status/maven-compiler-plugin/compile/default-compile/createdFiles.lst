@@ -1,0 +1,11 @@
+my\security\exercise\model\AuthenticationAttempt$AuthAttemptResult.class
+my\security\exercise\App.class
+my\security\exercise\config\SecurityConfig.class
+my\security\exercise\controller\MainController.class
+my\security\exercise\config\MainConfig.class
+my\security\exercise\config\WebConfig.class
+my\security\exercise\MyUserDetailsManager.class
+my\security\exercise\model\AuthenticationAttempt.class
+my\security\exercise\model\Registration.class
+my\security\exercise\AuthEventHandler.class
+my\security\exercise\repository\AuthenticationAttemptRepository.class
