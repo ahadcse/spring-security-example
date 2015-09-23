@@ -1,0 +1,15 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+#Other
+.classpath
+.project
+.settings/
+target
+/bin
+logs
+.iml
+.DS_Store

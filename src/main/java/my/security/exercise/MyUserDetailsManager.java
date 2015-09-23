@@ -14,9 +14,7 @@ import javax.sql.DataSource;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Created by attakorn on 2014-10-17.
- */
+
 public class MyUserDetailsManager extends JdbcUserDetailsManager {
 
     public static final String SUPER_ADMIN_ROLE = "SUPER";

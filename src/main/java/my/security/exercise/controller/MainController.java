@@ -25,9 +25,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by attakorn on 2014-10-16.
- */
+
 @Controller
 public class MainController {
 

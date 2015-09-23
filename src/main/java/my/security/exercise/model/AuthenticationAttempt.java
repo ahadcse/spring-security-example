@@ -3,9 +3,7 @@ package my.security.exercise.model;
 import javax.persistence.*;
 import java.util.Date;
 
-/**
- * Created by attakorn on 2014-10-18.
- */
+
 @Entity
 public class AuthenticationAttempt {
 

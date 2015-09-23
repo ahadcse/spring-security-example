@@ -14,9 +14,6 @@ import org.springframework.security.provisioning.UserDetailsManager;
 
 import javax.sql.DataSource;
 
-/**
- * Created by attakorn on 2014-10-16.
- */
 @Configuration
 @Order(SecurityProperties.ACCESS_OVERRIDE_ORDER)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {

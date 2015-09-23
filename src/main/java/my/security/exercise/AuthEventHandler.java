@@ -8,9 +8,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.User;
 
-/**
- * Created by attakorn on 2014-10-18.
- */
+
 public class AuthEventHandler implements AuthenticationEventPublisher {
 
     @Autowired
